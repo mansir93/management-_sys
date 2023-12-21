@@ -24,7 +24,7 @@ const SidebarNav = () => {
     <div>
       <Sidebar collapsed={collapsed}>
         <Menu iconShape="square">
-          <div className="flex flex-col gap-4 text-white bg-blue-900 h-screen">
+          <div className="flex flex-col gap-4 text-white bg-blue-900 h-screen font-bold">
             <MenuItem
               className="hover:text-blue-500"
               icon={<FaBars />}
